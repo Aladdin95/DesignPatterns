@@ -1,4 +1,4 @@
-
+package StrategyPattern;
 public class Magro7a extends Batta {
 	public Magro7a() {
 		super();

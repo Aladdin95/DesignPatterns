@@ -1,4 +1,4 @@
-
+package StrategyPattern;
 public abstract class Batta {
 	protected int id;
 	protected String name;

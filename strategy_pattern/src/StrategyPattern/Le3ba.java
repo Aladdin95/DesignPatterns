@@ -1,4 +1,4 @@
-
+package StrategyPattern;
 public class Le3ba extends Batta {
 	public Le3ba() {
 		super();

@@ -1,4 +1,4 @@
-
+package StrategyPattern;
 public class FlyWithWings implements FlyBehaviour {
 	@Override
 	public String fly() {

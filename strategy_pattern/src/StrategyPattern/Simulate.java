@@ -1,6 +1,6 @@
-
+package StrategyPattern;
 public class Simulate {
-	public static void main(String argsp[]) {
+	public static void main(String[] args) {
 		Batta b1 = new Magro7a();
 		b1.perform();
 		
