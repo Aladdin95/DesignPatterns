@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class Pizza {
 	String name;
 	String dough;
-	String sause;
+	String sauce;
 	ArrayList<String> toppings = new ArrayList<String>();
 
 	public String get_name() {
@@ -33,7 +33,7 @@ public abstract class Pizza {
 		String s;
 		s = "----" + this.name + "----\n";
 		s+= this.dough + "\n";
-		s+= this.sause + "\n";
+		s+= this.sauce + "\n";
 		for(String topping : toppings) {
 			s+= topping + "\n";
 		}
